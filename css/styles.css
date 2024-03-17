@@ -56,6 +56,10 @@
   height: 510px;
 }
 
+.features ul {
+  list-style: none;
+}
+
 .features-heading {
   width: 440px;
   font-size: 72px;
@@ -84,23 +88,6 @@
   line-height: 1.5;
   letter-spacing: 0.5px;
 }
-
-/* .icon-text {
-  width: 214px;
-  height: 29px;
-  font-size: 24px;
-  font-weight: bold;
-  line-height: 120%;
-  letter-spacing: 0.5px;
-} */
-
-/* .test-text {
-  width: 314px;
-  height: 72px;
-  font-size: 16px;
-  line-height: 150%;
-  letter-spacing: 0.5px;
-} */
 
 .promo {
   background-color: #252420;
