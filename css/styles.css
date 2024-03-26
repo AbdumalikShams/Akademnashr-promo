@@ -13,9 +13,13 @@ body {
 /* SITE HEADER */
 
 .site-header {
-  background-color: #fff;
   display: flex;
+  justify-content: space-between;
   align-items: center;
+  background-color: #fff;
+  border-top: 5px solid #FF7500 ;
+  padding-top: 16px;
+  padding-bottom: 16px;
 }
 
 .logo-link {
@@ -36,8 +40,9 @@ body {
 }
 
 .sitenav-list {
-  list-style: none;
   display: flex;
+  padding: 0;
+  list-style: none;
 }
 
 .sitenav-link {
@@ -61,12 +66,16 @@ body {
 }
 
 .main-link {
+  display: inline-block;
   font-size: 13px;
+  font-weight: bold;
   line-height: 15px;
   background-color: #FF7500;
   color: #fff;
   text-decoration: none;
   transition: opacity 0.4s ease;
+  border-radius: 4px;
+  padding: 12px 24px;
 }
 
 .main-link:hover {
@@ -77,12 +86,16 @@ body {
   opacity: 0.6;
 }
 
+/* HERO */
+
 .hero {
   display: flex;
   justify-content: space-between;
   align-items: center;
   background-color: #252420;
   color: #fff;
+  padding-top: 80px;
+  padding-bottom: 80px;
 }
 
 .hero-content {
@@ -93,6 +106,7 @@ body {
   width: 80px;
   height: 3px;
   background-color: #FF7500;
+  border: 0;
 }
 
 .hero-heading {
@@ -104,6 +118,13 @@ body {
 .hero-img {
   width: 510px;
   height: 510px;
+  border-radius: 8px;
+}
+
+/* FEATURES */
+.features {
+  padding-top: 210px;
+  padding-bottom: 210px;
 }
 
 .features-heading {
@@ -121,11 +142,19 @@ body {
 .feature-list {
   display: flex;
   justify-content: space-between;
+  padding: 0;
   list-style: none;
 }
 
 .feature {
   width: 340px;
+}
+
+.feature-icon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
 }
 
 .feature-icon {
@@ -149,10 +178,14 @@ body {
   color: #000;
 }
 
+/* PROMO */
 .promo {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  padding-top: 120px;
+  padding-bottom: 160px;
+  border-radius: 12px;
   background-color: #252420;
   color: #fff;
 }
@@ -175,9 +208,13 @@ body {
   width: 440px;
   height: 440px;
   object-fit: cover;
+  border-radius: 12px;
 }
 
+/* SITE-FOOTER */
 .site-footer {
+  padding-top: 56px;
+  padding-bottom: 56px;
   background-color: #f8f8f8;
 }
 
@@ -189,11 +226,13 @@ body {
 
 .site-footer ul {
   list-style: none;
+  padding: 0;
 }
 
 .site-footer-socials {
   display: flex;
   align-items: center;
+  padding: 0;
 }
 
 .site-footer-socials a {
@@ -210,6 +249,7 @@ body {
 
 .site-footer-devider {
   height: 2px;
+  border: 0;
   background-color: rgba(37, 36, 32, 0.5);
 }
 
